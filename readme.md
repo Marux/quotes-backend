@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://thumbnail.imgbin.com/17/23/16/spring-boot-spring-boot-logo-for-java-framework-qyzyQTC4_t.jpg" alt="Quotes Backend" width="100%" style="border-radius: 10px;"/>
-</p>
-
 <h1 align="center">
   📝 Quotes Backend API
 </h1>
