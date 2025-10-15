@@ -2,8 +2,16 @@ package com.victor.quotes.quotes_backend.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
+import java.util.UUID;
+
 @Schema(description = "DTO para crear o mostrar una cita")
 public class QuoteDTO {
+
+    @Schema(
+        description = "ID único de la cita",
+        example = "123e4567-e89b-12d3-a456-426614174000"
+    )
+    private UUID id;
 
     @Schema(
         description = "La frase o cita",
@@ -26,14 +34,30 @@ public class QuoteDTO {
     // Constructor vacío obligatorio para frameworks
     public QuoteDTO() {}
 
-    // Constructor completo
+    // Constructor para crear nuevas citas (sin ID)
     public QuoteDTO(String frase, String autor, String html) {
         this.frase = frase;
         this.autor = autor;
         this.html = html;
     }
 
+    // Constructor completo (con ID)
+    public QuoteDTO(UUID id, String frase, String autor, String html) {
+        this.id = id;
+        this.frase = frase;
+        this.autor = autor;
+        this.html = html;
+    }
+
     // Getters y setters
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
     public String getFrase() {
         return frase;
     }
