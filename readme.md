@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Quotes Backend" width="100%" style="border-radius: 10px;"/>
+  <img src="https://thumbnail.imgbin.com/17/23/16/spring-boot-spring-boot-logo-for-java-framework-qyzyQTC4_t.jpg" alt="Quotes Backend" width="100%" style="border-radius: 10px;"/>
 </p>
 
 <h1 align="center">
